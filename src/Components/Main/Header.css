@@ -1,0 +1,11 @@
+#brand:hover{
+    color: #dc3545;
+   
+}
+#brand{
+    font-weight: 500;
+    font-size: 20px;
+}
+#navbarSupportedContent a:hover {
+color: #dc3545;
+}
