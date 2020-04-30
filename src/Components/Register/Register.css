@@ -1,12 +1,36 @@
-.box{
-    height: 100%;
-    width: 900px;
-    
-}
-@media(max-width:600px){
+
+.box {
+    height: 500px;
+    width: 60%;
+   border-radius: 5px;
+   }
+.box input {border-radius: 30px;}
+.box select {border-radius: 30px;}
+.divform{
+    border-radius: 80px 180px 180px 80px;background-color: #f8f9fa!important;}
+.box input::placeholder{font-size: 13px;}
+@media(max-width:650px){
     .box{
-        height: 90%;
-        width: 100%;
-     
+        height: 100%;
+        width: 360px;
+        border:none;
+        background-color: #f8f9fa!important;
     }
-}
+    .img_login{
+    display: none;
+    }
+    }
+@media screen and (max-width: 1024px) and (min-width: 650px) {
+    .box{
+        height: 60vh;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+     top: 30%;
+     transform: translate(-50%,-50%);
+   padding: 20px;
+       }
+   .img_login{
+    display: none;
+    }
+     }
